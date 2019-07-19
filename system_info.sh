@@ -1,5 +1,8 @@
 #! /bin/bash
-
+echo ""
+echo -e "\e[31;43m***** TODAY'S DATE & TIME *****\e[0m"
+date
+echo ""
 echo -e "\e[31;43m***** HOSTNAME INFO *****\e[0m"
 hostnamectl
 echo ""
